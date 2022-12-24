@@ -46,7 +46,7 @@ function showData(){
 
             <div class="project_content">
                 <p class="title">
-                    <a href="#" target="_blank">${myProject[i].projectName}</a>
+                    <a href="detail-project.html" target="_blank">${myProject[i].projectName}</a>
                 </p>
                 <p class="duration">Durasi: 5 Bulan</p>
                 <p class="desc">${myProject[i].desc}</p>
@@ -65,3 +65,5 @@ function showData(){
         `
     }
 }
+
+
